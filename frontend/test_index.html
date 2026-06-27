@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Демонстрація Napas AI Bot</title>
+    <!-- Подключаем наш CSS -->
+    <link rel="stylesheet" href="widget.css">
+    <style>
+        body {
+            background-color: #0b0f19;
+            color: white;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .demo-container {
+            text-align: center;
+            border: 1px dashed #374151;
+            padding: 40px;
+            border-radius: 10px;
+            background: #111827;
+        }
+        h1 { color: #10b981; }
+    </style>
+</head>
+<body>
+
+    <div class="demo-container">
+        <h1>MVP Napas Project AI Bot</h1>
+        <p>Для тестування віджета натисни на іконку чату в правому нижньому кутку екрана.</p>
+        <p>Бот відповідає на основі твоїх файлів з папки <code>data_pg</code>.</p>
+    </div>
+
+    <!-- Подключаем наш скрипт виджета перед закрывающим тегом body -->
+    <script src="widget.js"></script>
+</body>
+</html>
