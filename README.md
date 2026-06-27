@@ -11,23 +11,31 @@
 ### 1. Виджет чата на сайте
 При переходе на страницу в правом нижнем углу появляется минималистичная кнопка вызова ассистента, оформленная в фирменных цветах Napas Project.
 
-![Кнопка чата на сайте](<img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/118c8d91-55d1-4f8a-b2ba-8cb9f575099a" />)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/118c8d91-55d1-4f8a-b2ba-8cb9f575099a" alt="Кнопка чата на сайте" width="100%" />
+</p>
 
 ### 2. Интерактивный диалог с ИИ
 При клике открывается окно чата. Бот использует модель **Gemini-2.5-Flash** и отвечает строго по базе знаний сайта (без «воды» и галлюцинаций), подстраиваясь под язык пользователя.
 
-![Пример диалога с ботом](<img width="441" height="409" alt="image" src="https://github.com/user-attachments/assets/d7784b58-1095-4552-ac81-a1da4bfdb8a8" />
-) 
-(<img width="480" height="384" alt="image" src="https://github.com/user-attachments/assets/6259ed0f-e472-4496-bf9e-1fc1c5d7036f" />
-)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d7784b58-1095-4552-ac81-a1da4bfdb8a8" alt="Пример диалога с ботом 1" width="45%" />
+  &nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/6259ed0f-e472-4496-bf9e-1fc1c5d7036f" alt="Пример диалога с ботом 2" width="45%" />
+</p>
 
 ---
 
 ## ⚡ Быстрый старт (для разработчика)
 
+
+
 Если вы хотите запустить проект локально:
 
+
+
 1. **Настройте ключи:** Создайте файл `.env` в корне и добавьте `GEMINI_API_KEY=ваш_ключ`.
+
 2. **Запустите Бэкенд (FastAPI):**
    ```bash
    python -m venv .venv
